@@ -1,0 +1,12 @@
+{
+    "from_email": "bot-email@domain.com",
+    "from_user": "bot-email@domain.com",
+    "from_pwd": "bot-password",
+    "from_smtp_host": "smtp.gmail.com",
+    "from_smtp_port": 587,
+    "to_email": "my-main-mail@gmail.com",
+    "stores": ["Rosenstrasse"],
+    "products": ["iphone6"],
+    "colors": ["silver", "spacegray"],
+    "memory": ["64gb"]
+}

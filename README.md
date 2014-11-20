@@ -1,12 +1,12 @@
-iPhone 6 Availability Crawler
+AppleStore Availability Crawler
 =============================
 
-> Crawler that will send you email notifications as soon as iPhone 6 becomes available for reservation in particular Apple Store. Currently works only with German stores, but can be easily extended. Why yet another notification service? It's damn fast, so more chances to actually reserve something!
+> Crawler that will send you email notifications as soon as Apple products like iPhone 6 become available for reservation in particular store. Currently works only with German stores, but can be easily extended. Why yet another notification service? It's damn fast, so more chances to actually reserve something!
 
 **TL;DR**
 
-    git clone git@github.com:MA3STR0/iPhone-6-availability-crawler.git
-    cd iPhone-6-availability-crawler
+    git clone git@github.com:MA3STR0/applestore-availability-crawler.git
+    cd applestore-availability-crawler
     cp config.json.example config.json
     vim config.json   # edit config.json file to set up your nofitication preferences
     sudo pip install tornado
@@ -15,7 +15,7 @@ iPhone 6 Availability Crawler
 About
 -----
 
-Apple has a pretty poor availability of their new products in offline stores. To get a model of your choice it's best to reserve it online. This crawler will notify you per email as soon as an iPhone of particular color and memory option will becode avaiable for reservation. Then you have around 5 minutes to reserve it.
+Apple has a pretty poor availability of their new products in offline stores. To get a model of your choice it's best to reserve it online. This crawler currently can notify you per email as soon as an iPhone of particular color and memory option will becode avaiable for reservation. Then you have around 5 minutes to reserve it.
 There are many online services that do the similar iphone6-notification thing, but none of them worked fast enough for me. So I created this standalone server. It's damn fast.
 
 Currenlty works only for German stores, but this can be easily extended. Just send me a pull request or open up an issue and I will try add your country.
